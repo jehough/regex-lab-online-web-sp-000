@@ -13,8 +13,6 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text == /[\AA-Z]/
     text == /\W\b/
-  else
-    return false
   end
 end
 
